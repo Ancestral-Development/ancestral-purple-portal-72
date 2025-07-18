@@ -83,15 +83,19 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 pt-4">
+                <a href="mailto:support@ancestraldev.com">
                 <Button
-                  variant="outline"
-                  className="border-purple-200 text-purple-600 hover:bg-purple-50 rounded-xl"
+                 variant="outline"
+                 className="border-purple-200 text-purple-600 hover:bg-purple-50 rounded-xl"
                 >
-                  Get Quote
+                   Email Us
                 </Button>
+               </a> 
+               <a href="https://discord.gg/StDudTGgQg" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-purple-600 hover:bg-purple-700 text-white rounded-xl">
-                  Contact Us
+                 Join Discord
                 </Button>
+               </a>
               </div>
             </nav>
           </div>
