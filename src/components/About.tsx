@@ -20,9 +20,9 @@ const About = () => {
           <div>
             <h3 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h3>
             <p className="text-lg text-gray-600 mb-6">
-              At Ancestral Development, we believe in the power of technology to transform businesses 
-              and create meaningful connections. Our mission is to deliver cutting-edge solutions that 
-              not only meet your current needs but also scale with your future growth.
+              At Ancestral Development, we believe in finishing your project in a timely manner without compromising performance or usability. We ensure the product 
+              is visually pleasing and easy to use. Not only that, but we also strive to make things optimized and smooth. With us, you dont't have to worry about
+              crashes or giving up performance.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="text-center">

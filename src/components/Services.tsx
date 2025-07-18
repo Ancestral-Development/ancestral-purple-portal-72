@@ -1,26 +1,26 @@
 
-import { Zap, Users, Gamepad2 } from 'lucide-react';
+import { Zap, Users, Gamepad2, MessageCircleQuestion } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 
 const Services = () => {
   const services = [
     {
-      icon: Zap,
-      title: 'Performance Optimization',
-      description: 'Lightning-fast applications optimized for speed and efficiency.',
-      features: ['Code Optimization', 'Memory Optimization']
-    },
-    {
       icon: Users,
-      title: 'Android Development',
+      title: 'Android & Desktop Development',
       description: 'Jetpack Compose Android apps with modern UI/UX and seamless performance.',
-      features: ['Material Design', 'Offline Capabilities', 'Push Notifications']
+      features: ['Material Design', 'Database Integration', 'More...']
     },
     {
       icon: Gamepad2,
       title: 'Minecraft Plugins',
       description: 'Custom Spigot plugins that enhance server gameplay and management.',
       features: ['Custom Commands', 'Gamemode Systems', 'Moderation']
+    },
+      {
+      icon: MessageCircleQuestion,
+      title: 'Other Services',
+      description: 'If you do not see what you are looking for but believe we could make it, contact us.',
+      features: ['Up to you!']
     }
   ];
 
@@ -32,7 +32,7 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            We specialize in creating robust, scalable solutions across multiple platforms and technologies.
+            An online store? A whole gamemode? A simple utility app? Look no further, we are always up for a challenge.
           </p>
         </div>
 

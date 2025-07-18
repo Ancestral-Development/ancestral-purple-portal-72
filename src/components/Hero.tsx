@@ -14,11 +14,11 @@ const Hero = () => {
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            We craft optimized performance solutions, innovative Android apps, and immersive Minecraft experiences 
-            that bring your digital vision to life.
+            We tailor Desktop & Mobile applications and Minecraft plugins to your liking, and according to our standards of excellence.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+          <a href="https://discord.gg/StDudTGgQg" target="_blank" rel="noopener noreferrer">
             <Button 
               size="lg" 
               className="bg-purple-600 hover:bg-purple-700 text-white rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200 hover:scale-105"
@@ -26,6 +26,7 @@ const Hero = () => {
               Start Your Project
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
+            </a>
             <Button 
               variant="outline" 
               size="lg"

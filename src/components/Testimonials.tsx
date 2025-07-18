@@ -5,47 +5,27 @@ import { Card } from '@/components/ui/card';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Sarah Chen',
-      role: 'CTO, TechStart Inc.',
-      content: 'Ancestral Development delivered exceptional performance optimization that scaled seamlessly with our growth. Their attention to detail and technical expertise is unmatched.',
+      name: 'ArrowTan',
+      role: 'Hosting & Server Owner',
+      content: 'Vouch for Luka! he made a plugin that I have been wanting for a long time!',
       rating: 5,
-      avatar: 'SC'
+      avatar: 'AT'
     },
     {
-      name: 'Marcus Rodriguez',
-      role: 'Founder, GameCraft Studios',
-      content: 'The Minecraft plugins they created transformed our server completely. Player engagement increased by 300% and the custom features work flawlessly.',
+      name: 'Night',
+      role: 'Server Owner',
+      content: 'Vouch for Luka for high quality plugins for very affordable price, kind person, fast support.',
       rating: 5,
-      avatar: 'MR'
+      avatar: 'NT'
     },
     {
-      name: 'Emily Watson',
-      role: 'Product Manager, MobileFirst',
-      content: 'Our Android app has received outstanding reviews thanks to their development work. The user experience is smooth and the performance is exceptional.',
+      name: 'Pmanden',
+      role: 'BuiltByBit User',
+      content: 'Awesome plugin that works off the bat! support on Discord is also extremely fast and they can answer questions within minutes.',
       rating: 5,
-      avatar: 'EW'
-    },
-    {
-      name: 'David Kim',
-      role: 'CEO, DataFlow Solutions',
-      content: 'Working with Ancestral Development was a game-changer. They delivered our optimized systems on time and under budget.',
-      rating: 5,
-      avatar: 'DK'
-    },
-    {
-      name: 'Lisa Thompson',
-      role: 'Technical Director, CloudNet',
-      content: 'Their expertise in performance optimization helped us solve critical issues. Highly recommended for any serious development project.',
-      rating: 5,
-      avatar: 'LT'
-    },
-    {
-      name: 'James Miller',
-      role: 'Server Owner, CraftRealms',
-      content: 'The custom Spigot plugins they developed brought our vision to life. Our players love the new features and the code is rock solid.',
-      rating: 5,
-      avatar: 'JM'
+      avatar: 'PM'
     }
+
   ];
 
   return (

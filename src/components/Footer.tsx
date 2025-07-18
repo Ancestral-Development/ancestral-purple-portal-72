@@ -22,8 +22,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Performance Optimization</li>
-              <li>Android Development</li>
+              <li>Android/Desktop Development</li>
               <li>Minecraft Plugins</li>
               <li>Custom Solutions</li>
             </ul>
@@ -44,11 +43,7 @@ const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>hello@ancestraldev.com</span>
-              </div>
-              <div className="flex items-center">
-                <Phone className="h-4 w-4 mr-2" />
-                <span>+1 (555) 123-4567</span>
+                <span>support@ancestraldev.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 mr-2" />
@@ -59,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 Ancestral Development. All rights reserved.</p>
+          <p>&copy; 2025. Ancestral Development. All rights reserved.</p>
         </div>
       </div>
     </footer>
