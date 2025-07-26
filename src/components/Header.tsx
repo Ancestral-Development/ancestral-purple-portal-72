@@ -92,7 +92,7 @@ const Header = () => {
                 </Button>
                </a> 
                <a href="https://discord.gg/StDudTGgQg" target="_blank" rel="noopener noreferrer">
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white rounded-xl">
+                <Button className="bg-purple-600 hover:bg-purple-600 text-white rounded-xl">
                  Join Discord
                 </Button>
                </a>
