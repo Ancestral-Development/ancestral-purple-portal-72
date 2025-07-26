@@ -48,7 +48,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="bg-white rounded-2xl p-8 shadow-lg">
+          {/* <div className="bg-white rounded-2xl p-8 shadow-lg">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Why Choose Us?</h3>
             <ul className="space-y-4">
               <li className="flex items-start">
@@ -68,7 +68,7 @@ const About = () => {
                 <span className="text-gray-600">Transparent communication throughout the development process</span>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
