@@ -23,7 +23,7 @@ const Hero = () => {
               size="lg" 
               className="bg-purple-600 hover:bg-purple-700 text-white rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200 hover:scale-105"
             >
-              Start Your Project
+              Get in Touch
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             </a>
@@ -32,7 +32,7 @@ const Hero = () => {
               size="lg"
               className="border-purple-200 text-purple-600 hover:bg-purple-50 rounded-xl px-8 py-4 text-lg font-semibold"
             >
-              View Our Work
+              Our Portfolio
             </Button>
           </div>
         </div>
