@@ -33,15 +33,15 @@ const About = () => {
                 <p className="text-sm text-gray-600">Maintainable & scalable</p>
               </div>
               <div className="text-center">
-                <div className="bg-blue-100 rounded-full p-3 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
-                  <Zap className="h-8 w-8 text-blue-600" />
+                <div className="bg-purple-600 rounded-full p-3 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                  <Zap className="h-8 w-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900">Performance</h4>
                 <p className="text-sm text-gray-600">Lightning fast solutions</p>
               </div>
               <div className="text-center">
-                <div className="bg-purple-100 rounded-full p-3 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
-                  <Users className="h-8 w-8 text-purple-600" />
+                <div className="bg-purple-600 rounded-full p-3 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
+                  <Users className="h-8 w-8 text-white" />
                 </div>
                 <h4 className="font-semibold text-gray-900">Support</h4>
                 <p className="text-sm text-gray-600">Dedicated team support</p>
