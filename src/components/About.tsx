@@ -27,7 +27,7 @@ const About = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="bg-purple-100 rounded-full p-3 w-16 h-16 mx-auto mb-3 flex items-center justify-center">
-                  <Code className="h-8 w-8 text-purple-600" />
+                  <Code className="h-8 w-8 text-white-100 bg-purple-600" />
                 </div>
                 <h4 className="font-semibold text-gray-900">Clean Code</h4>
                 <p className="text-sm text-gray-600">Maintainable & scalable</p>
