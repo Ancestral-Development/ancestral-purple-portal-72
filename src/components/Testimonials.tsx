@@ -43,7 +43,7 @@ const Testimonials = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="p-8 rounded-2xl transition-all duration-300 relative bg-white">
-              <Quote className="h-8 w-8 text-purple-200 mb-4" />
+              <Quote className="h-8 w-8 text-purple-600 mb-4" />
               <p className="text-gray-600 mb-6 leading-relaxed">"{testimonial.content}"</p>
               
               <div className="flex items-center justify-between">
