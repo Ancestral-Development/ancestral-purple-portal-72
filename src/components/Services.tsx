@@ -40,12 +40,14 @@ const Services = () => {
         {services.map((service, index) => (
           <Card
             key={index}
-            className="p-8 rounded-2xl transition-all duration-300 hover:shadow-lg hover:scale-105"
+            className="p-8 rounded-2xl !border-0 transition-all duration-300 hover:shadow-lg hover:scale-105"
           >
             <div className="bg-gradient-to-br from-purple-600 to-purple-600 rounded-xl p-4 w-16 h-16 mb-6 flex items-center justify-center">
               <service.icon className="h-8 w-8 text-purple-600" />
             </div>
-            <h3 className="text-xl font-semibold text-gray-900 mb-3">{service.title}</h3>
+            <h3 className="text-xl font-semibold text-gray-900 mb-3">
+              {service.title}
+            </h3>
             <p className="text-gray-600 mb-4">{service.description}</p>
             <ul className="space-y-2">
               {service.features.map((feature, featureIndex) => (
