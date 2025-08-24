@@ -43,7 +43,7 @@ const Header = () => {
             <a href="mailto:support@ancestraldev.com">
             <Button
               variant="outline"
-              className="border-purple-200 text-purple-600 hover:bg-purple-50 rounded-xl"
+              className="border-purple-500 text-purple-600 hover:bg-purple-50 rounded-xl"
             >
               Email Us
             </Button>
@@ -86,7 +86,7 @@ const Header = () => {
                 <a href="mailto:support@ancestraldev.com">
                 <Button
                  variant="outline"
-                 className="border-purple-200 text-purple-600 hover:bg-purple-50 rounded-xl"
+                 className="border-purple-500 text-purple-600 hover:bg-purple-50 rounded-xl"
                 >
                    Email Us
                 </Button>
