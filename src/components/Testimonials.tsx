@@ -48,7 +48,7 @@ const Testimonials = () => {
               
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
-                  <div className="bg-gradient-to-r from-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-semibold text-sm mr-4">
+                  <div className="bg-purple-600 from-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-semibold text-sm mr-4">
                     {testimonial.avatar}
                   </div>
                   <div>
