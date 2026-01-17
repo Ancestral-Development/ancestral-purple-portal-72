@@ -7,7 +7,7 @@ const Hero = () => {
       id="home"
       className="relative pt-40 pb-16 overflow-hidden"
     >
-      {/* Background Image */}
+
       <div
         className="absolute inset-0 bg-center bg-cover blur-sm scale-110"
         style={{
@@ -15,14 +15,14 @@ const Hero = () => {
         }}
       />
 
-      {/* Dark overlay (NOT white) */}
+      
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
           Building the
-          <span className="text-transparent bg-clip-text bg-purple-500">
+          <span className="text-purple-600 font-extrabold drop-shadow-[0_6px_12px_rgba(0,0,0,0.6)]">
             {" "}Future
           </span>
         </h1>
@@ -39,7 +39,7 @@ const Hero = () => {
           >
             <Button
               size="lg"
-              className="bg-purple-600 hover:bg-purple-700 text-white rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200 hover:scale-105"
+              className="bg-purple-600 hover:bg-purple-600 text-white rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200 hover:scale-105"
             >
               Get in Touch
               <ArrowRight className="ml-2 h-5 w-5" />
