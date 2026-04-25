@@ -185,7 +185,7 @@ const Footer = () => {
             className="text-xs"
             style={{ fontFamily: "'DM Mono', monospace", color: 'rgba(255,255,255,0.25)', letterSpacing: '0.08em' }}
           >
-            © 2025 ANCESTRAL DEVELOPMENT. ALL RIGHTS RESERVED.
+            © 2026 ANCESTRAL DEVELOPMENT. ALL RIGHTS RESERVED.
           </p>
           <div className="flex items-center gap-2">
             <span className="w-4 h-px" style={{ background: '#7c3aed' }} />

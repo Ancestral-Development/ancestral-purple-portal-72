@@ -4,10 +4,10 @@ const services = [
   {
     icon: Users,
     label: '01',
-    title: 'Android & Desktop Development',
+    title: 'Android Development',
     description:
       'Jetpack Compose Android apps with modern UI/UX and seamless performance.',
-    features: ['Material Design', 'Database Integration', 'More...'],
+    features: ['Material Design', 'Database Integration', 'Premium Feel'],
   },
   {
     icon: Gamepad2,
@@ -15,15 +15,15 @@ const services = [
     title: 'Minecraft Plugins',
     description:
       'Custom Spigot plugins that enhance server gameplay and management.',
-    features: ['Custom Commands', 'Gamemode Systems', 'Moderation'],
+    features: ['Custom Commands', 'Gamemode Systems', 'Discord Bot Integration'],
   },
   {
     icon: MessageCircleQuestion,
     label: '03',
-    title: 'Other Services',
+    title: 'Desktop Development',
     description:
-      "If you don't see what you're looking for but believe we could make it, contact us.",
-    features: ['Up to you!'],
+      "Feature-rich desktop apps that are easy to use with various integrations.",
+    features: ['.NET', 'Compose', 'Cross-platform'],
   },
 ];
 
@@ -113,18 +113,7 @@ const Services = () => {
                   el.style.transform = 'translateY(0)';
                 }}
               >
-                {/* Index number */}
-                <span
-                  className="mb-6 self-end"
-                  style={{
-                    fontFamily: "'DM Mono', monospace",
-                    fontSize: '0.65rem',
-                    letterSpacing: '0.15em',
-                    color: '#cccccc',
-                  }}
-                >
-                  {service.label}
-                </span>
+    
 
                 {/* Icon */}
                 <div

@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: 'ArrowTan',
     role: 'Hosting & Server Owner',
-    content: 'Vouch for Luka! He made a plugin that I have been wanting for a long time!',
+    content: 'Vouch for Ancestral! They made a plugin that I have been wanting for a long time!',
     rating: 5,
     avatar: 'AT',
     index: '01',
@@ -12,7 +12,7 @@ const testimonials = [
   {
     name: 'Night',
     role: 'Server Owner',
-    content: 'Vouch for Luka for high quality plugins for very affordable price, kind person, fast support.',
+    content: 'Vouch for Ancestral for high quality plugins for very affordable price, kind people, fast support.',
     rating: 5,
     avatar: 'NT',
     index: '02',

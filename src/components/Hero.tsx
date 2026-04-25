@@ -86,7 +86,7 @@ const Hero = () => {
 
         {/* CTAs */}
         <div
-          className="mt-10 flex flex-col sm:flex-row gap-3 opacity-0"
+          className="mt-10 flex flex-col sm:flex-row items-start gap-3 opacity-0"
           style={{ animation: 'fadeUp 0.7s ease forwards 0.48s' }}
         >
           <a
@@ -107,7 +107,7 @@ const Hero = () => {
               <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
             </button>
           </a>
-
+ 
           <button
             className="group flex items-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
             style={{
@@ -130,7 +130,7 @@ const Hero = () => {
             <ExternalLink className="h-3.5 w-3.5 opacity-50 group-hover:opacity-100 transition-opacity" />
           </button>
         </div>
-
+ 
       </div>
 
       {/* Keyframes */}
