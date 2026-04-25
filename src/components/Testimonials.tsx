@@ -1,72 +1,174 @@
+import { Star } from 'lucide-react';
 
-import { Star, Quote } from 'lucide-react';
-import { Card } from '@/components/ui/card';
+const testimonials = [
+  {
+    name: 'ArrowTan',
+    role: 'Hosting & Server Owner',
+    content: 'Vouch for Luka! He made a plugin that I have been wanting for a long time!',
+    rating: 5,
+    avatar: 'AT',
+    index: '01',
+  },
+  {
+    name: 'Night',
+    role: 'Server Owner',
+    content: 'Vouch for Luka for high quality plugins for very affordable price, kind person, fast support.',
+    rating: 5,
+    avatar: 'NT',
+    index: '02',
+  },
+  {
+    name: 'Pmanden',
+    role: 'BuiltByBit User',
+    content: 'Awesome plugin that works off the bat! Support on Discord is also extremely fast and they can answer questions within minutes.',
+    rating: 5,
+    avatar: 'PM',
+    index: '03',
+  },
+];
 
 const Testimonials = () => {
-  const testimonials = [
-    {
-      name: 'ArrowTan',
-      role: 'Hosting & Server Owner',
-      content: 'Vouch for Luka! he made a plugin that I have been wanting for a long time!',
-      rating: 5,
-      avatar: 'AT'
-    },
-    {
-      name: 'Night',
-      role: 'Server Owner',
-      content: 'Vouch for Luka for high quality plugins for very affordable price, kind person, fast support.',
-      rating: 5,
-      avatar: 'NT'
-    },
-    {
-      name: 'Pmanden',
-      role: 'BuiltByBit User',
-      content: 'Awesome plugin that works off the bat! support on Discord is also extremely fast and they can answer questions within minutes.',
-      rating: 5,
-      avatar: 'PM'
-    }
-
-  ];
-
   return (
-    <section id="testimonials" className="py-20 bg-gradient-to-br from-purple-50 via-white to-blue-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            What Our Clients Say
-          </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied clients have to say about our work.
-          </p>
+    <section id="testimonials" className="relative bg-white overflow-hidden">
+      {/* Grid texture */}
+      <div
+        className="absolute inset-0 opacity-[0.03] pointer-events-none"
+        style={{
+          backgroundImage:
+            'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)',
+          backgroundSize: '60px 60px',
+        }}
+      />
+
+      {/* Accent blob */}
+      <div
+        className="absolute top-0 right-0 w-[340px] h-[340px] rounded-full opacity-[0.06] blur-3xl pointer-events-none"
+        style={{ background: 'radial-gradient(circle, #7c3aed 0%, transparent 70%)' }}
+      />
+
+      <div className="relative z-10 max-w-6xl mx-auto px-6 sm:px-10 lg:px-16 py-16 sm:py-20">
+
+        {/* Section header */}
+        <div className="mb-14">
+          <div className="inline-flex items-center gap-2 mb-8">
+            <span className="w-6 h-px bg-purple-600" />
+            <span
+              className="text-xs font-semibold tracking-[0.2em] uppercase text-purple-600"
+              style={{ fontFamily: "'DM Mono', 'Courier New', monospace" }}
+            >
+              Client Voices
+            </span>
+          </div>
+
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+            <h2
+              style={{
+                fontFamily: "'Playfair Display', Georgia, serif",
+                fontSize: 'clamp(2.2rem, 5vw, 4rem)',
+                fontWeight: 700,
+                lineHeight: 1.08,
+                letterSpacing: '-0.02em',
+                color: '#0a0a0a',
+              }}
+            >
+              What Clients{' '}
+              <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Say.</span>
+            </h2>
+
+            <p
+              className="max-w-xs text-sm sm:text-base leading-relaxed"
+              style={{ fontFamily: "'DM Sans', sans-serif", color: '#4a4a4a' }}
+            >
+              Don't take our word for it — here's what our clients have to say.
+            </p>
+          </div>
+
+          <div className="mt-8 h-px w-full bg-black/8" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial, index) => (
-            <Card key={index} className="p-8 rounded-2xl transition-all duration-300 relative bg-white">
-              <Quote className="h-8 w-8 text-purple-600 mb-4" />
-              <p className="text-gray-600 mb-6 leading-relaxed">"{testimonial.content}"</p>
-              
-              <div className="flex items-center justify-between">
-                <div className="flex items-center">
-                  <div className="bg-purple-600 from-purple-600 text-white rounded-full w-12 h-12 flex items-center justify-center font-semibold text-sm mr-4">
-                    {testimonial.avatar}
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-900">{testimonial.name}</h4>
-                    <p className="text-sm text-gray-500">{testimonial.role}</p>
-                  </div>
-                </div>
-                
-                <div className="flex">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
+        {/* Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {testimonials.map((t) => (
+            <div
+              key={t.index}
+              className="flex flex-col justify-between p-7 rounded-2xl transition-all duration-300"
+              style={{ border: '1.5px solid #e8e8e8', background: '#fff' }}
+              onMouseEnter={e => {
+                const el = e.currentTarget as HTMLElement;
+                el.style.borderColor = '#7c3aed';
+                el.style.boxShadow = '0 8px 40px rgba(124,58,237,0.1)';
+                el.style.transform = 'translateY(-3px)';
+              }}
+              onMouseLeave={e => {
+                const el = e.currentTarget as HTMLElement;
+                el.style.borderColor = '#e8e8e8';
+                el.style.boxShadow = 'none';
+                el.style.transform = 'translateY(0)';
+              }}
+            >
+              {/* Index + stars */}
+              <div className="flex items-center justify-between mb-6">
+                <span
+                  style={{
+                    fontFamily: "'DM Mono', monospace",
+                    fontSize: '0.65rem',
+                    letterSpacing: '0.15em',
+                    color: '#cccccc',
+                  }}
+                >
+                  {t.index}
+                </span>
+                <div className="flex gap-0.5">
+                  {[...Array(t.rating)].map((_, i) => (
+                    <Star key={i} className="h-3.5 w-3.5 fill-current" style={{ color: '#f59e0b' }} />
                   ))}
                 </div>
               </div>
-            </Card>
+
+              {/* Quote */}
+              <p
+                className="text-sm leading-relaxed flex-1 mb-8"
+                style={{ fontFamily: "'DM Sans', sans-serif", color: '#4a4a4a' }}
+              >
+                "{t.content}"
+              </p>
+
+              {/* Author */}
+              <div className="flex items-center gap-3">
+                <div
+                  className="w-9 h-9 rounded-xl flex items-center justify-center flex-shrink-0 text-xs font-semibold"
+                  style={{
+                    background: '#f3f0ff',
+                    color: '#7c3aed',
+                    fontFamily: "'DM Mono', monospace",
+                    letterSpacing: '0.05em',
+                  }}
+                >
+                  {t.avatar}
+                </div>
+                <div>
+                  <p
+                    className="text-sm font-semibold"
+                    style={{ fontFamily: "'DM Sans', sans-serif", color: '#0a0a0a' }}
+                  >
+                    {t.name}
+                  </p>
+                  <p
+                    className="text-xs"
+                    style={{ fontFamily: "'DM Sans', sans-serif", color: '#8a8a8a' }}
+                  >
+                    {t.role}
+                  </p>
+                </div>
+              </div>
+            </div>
           ))}
         </div>
       </div>
+
+      <style>{`
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap');
+      `}</style>
     </section>
   );
 };
