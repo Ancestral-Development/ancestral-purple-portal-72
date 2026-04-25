@@ -13,10 +13,18 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <main>
-        <Hero />
-        <Services />
-        <About />
-        <Testimonials />
+        <div        
+          style={{
+            backgroundImage:
+              'linear-gradient(rgba(0,0,0,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(0,0,0,0.06) 1px, transparent 1px)',
+            backgroundSize: '60px 60px',
+          }}
+        >
+         <Hero />
+          <Services />
+          <About />
+          <Testimonials />
+        </div>
       </main>
       <Footer />
     </div>

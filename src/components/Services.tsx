@@ -1,4 +1,4 @@
-import { Users, Gamepad2, MessageCircleQuestion } from 'lucide-react';
+import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2 } from 'lucide-react';
 
 const services = [
   {
@@ -18,26 +18,22 @@ const services = [
     features: ['Custom Commands', 'Gamemode Systems', 'Discord Bot Integration'],
   },
   {
-    icon: MessageCircleQuestion,
+    icon: LucideLaptop2,
     label: '03',
     title: 'Desktop Development',
     description:
-      "Feature-rich desktop apps that are easy to use with various integrations.",
+      "Feature-rich desktop apps that are easy to use with various integrations. ",
     features: ['.NET', 'Compose', 'Cross-platform'],
   },
 ];
 
 const Services = () => {
   return (
-    <section id="services" className="relative bg-white overflow-hidden">
+    <section id="services" className="relative overflow-hidden">
       {/* Subtle grid texture — matches Hero */}
       <div
         className="absolute inset-0 opacity-[0.03] pointer-events-none"
-        style={{
-          backgroundImage:
-            'linear-gradient(#000 1px, transparent 1px), linear-gradient(90deg, #000 1px, transparent 1px)',
-          backgroundSize: '60px 60px',
-        }}
+        style={{ backgroundColor: 'transparent' }}
       />
 
       {/* Accent blob */}
