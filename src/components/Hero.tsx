@@ -86,16 +86,17 @@ const Hero = () => {
 
         {/* CTAs */}
         <div
-          className="mt-10 flex flex-col sm:flex-row items-start gap-3 opacity-0"
+          className="mt-10 flex flex-row items-start gap-3 opacity-0"
           style={{ animation: 'fadeUp 0.7s ease forwards 0.48s' }}
         >
           <a
             href="https://discord.gg/StDudTGgQg"
             target="_blank"
             rel="noopener noreferrer"
+            className="flex-1 sm:flex-none"
           >
             <button
-              className="group flex items-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold text-white transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
+              className="group flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold text-white transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] w-full sm:w-auto"
               style={{
                 background: '#7c3aed',
                 fontFamily: "'DM Sans', sans-serif",
@@ -103,13 +104,13 @@ const Hero = () => {
                 boxShadow: '0 4px 24px rgba(124,58,237,0.25)',
               }}
             >
-              Get in Touch
-              <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
+              Contact Us
+              <ArrowRight className="h-3 w-3 transition-transform duration-200 group-hover:translate-x-0.5" />
             </button>
           </a>
  
           <button
-            className="group flex items-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-[1.03] active:scale-[0.98]"
+            className="group flex sm:flex-none flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl text-sm font-semibold transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] sm:w-auto"
             style={{
               background: 'transparent',
               border: '1.5px solid #d4d4d4',

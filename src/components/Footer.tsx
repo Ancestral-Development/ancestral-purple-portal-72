@@ -61,20 +61,6 @@ const Footer = () => {
             </h3>
           </div>
 
-          <a href="https://discord.gg/StDudTGgQg" target="_blank" rel="noopener noreferrer">
-            <button
-              className="group flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-semibold text-white transition-all duration-200 hover:scale-[1.03] active:scale-[0.98] flex-shrink-0"
-              style={{
-                fontFamily: "'DM Sans', sans-serif",
-                background: '#7c3aed',
-                boxShadow: '0 4px 24px rgba(124,58,237,0.3)',
-                letterSpacing: '0.01em',
-              }}
-            >
-              Join Discord
-              <ArrowRight className="h-4 w-4 transition-transform duration-200 group-hover:translate-x-0.5" />
-            </button>
-          </a>
         </div>
 
         {/* Main footer grid */}
@@ -187,15 +173,6 @@ const Footer = () => {
           >
             © 2026 ANCESTRAL DEVELOPMENT. ALL RIGHTS RESERVED.
           </p>
-          <div className="flex items-center gap-2">
-            <span className="w-4 h-px" style={{ background: '#7c3aed' }} />
-            <span
-              className="text-xs"
-              style={{ fontFamily: "'DM Mono', monospace", color: 'rgba(255,255,255,0.2)', letterSpacing: '0.08em' }}
-            >
-              BUILT WITH PRECISION
-            </span>
-          </div>
         </div>
       </div>
 
