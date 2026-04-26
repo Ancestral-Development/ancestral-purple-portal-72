@@ -64,7 +64,7 @@ const Hero = () => {
         {/* Animated underline */}
         <div
           ref={lineRef}
-          className="mt-6 mb-8 h-px bg-black/10 w-full max-w-lg"
+          className="mt-6 mb-8 h-0px bg-black/10 w-full max-w-lg"
         />
 
         {/* Body copy */}
