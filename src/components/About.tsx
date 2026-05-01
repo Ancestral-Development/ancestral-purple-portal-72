@@ -19,7 +19,7 @@ const pillars = [
 ];
 
 const reasons = [
-  '5+ years of combined development experience',
+  'Developers with years of experience in various industries',
   'Expertise across multiple platforms and technologies',
   'Focus on performance optimization and user experience',
   'Transparent communication throughout the development process',

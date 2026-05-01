@@ -1,8 +1,8 @@
-import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2, Phone } from 'lucide-react';
+import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2, Phone, LucideSmartphone } from 'lucide-react';
 
 const services = [
   {
-    icon: Phone,
+    icon: LucideSmartphone,
     label: '01',
     title: 'Android Development',
     description:
