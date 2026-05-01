@@ -65,7 +65,7 @@ const About = () => {
             }}
           >
             About{' '}
-            <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Ancestral.</span>
+            <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Ancestral</span>
           </h2>
 
           <div className="mt-8 h-px w-full bg-black/8" />

@@ -1,8 +1,8 @@
-import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2 } from 'lucide-react';
+import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2, Phone } from 'lucide-react';
 
 const services = [
   {
-    icon: Users,
+    icon: Phone,
     label: '01',
     title: 'Android Development',
     description:
@@ -68,7 +68,7 @@ const Services = () => {
               }}
             >
               Our{' '}
-              <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Services.</span>
+              <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Services</span>
             </h2>
 
             <p
