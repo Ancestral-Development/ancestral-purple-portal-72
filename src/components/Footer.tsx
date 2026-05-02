@@ -10,7 +10,7 @@ const Footer = () => {
 
   const services = [
     'Android/Desktop Development',
-    'Minecraft Plugins',
+    'Web Development',
     'Custom Solutions',
   ];
 

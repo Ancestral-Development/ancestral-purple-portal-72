@@ -76,7 +76,7 @@ const Hero = () => {
             animation: 'fadeUp 0.7s ease forwards 0.35s',
           }}
         >
-          We tailor Desktop &amp; Mobile applications and Minecraft plugins to
+          We tailor various software including Mobile, Desktop &amp; Web to
           your liking — built to our standards of excellence.
         </p>
 

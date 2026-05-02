@@ -14,7 +14,7 @@ const pillars = [
   {
     icon: Users,
     title: 'Support',
-    description: 'Dedicated team support',
+    description: 'Dedicated support team',
   },
 ];
 
@@ -82,7 +82,7 @@ const About = () => {
             >
               At Ancestral Development, we believe in finishing your project in a timely
               manner without compromising performance or usability. We ensure the product
-              is visually pleasing and easy to use — optimized, smooth, and crash-free.
+              is visually pleasing and easy to use — optimized, smooth, and bug-free.
             </p>
 
             <div className="grid grid-cols-3 gap-4">

@@ -67,8 +67,8 @@ const Testimonials = () => {
                 color: '#0a0a0a',
               }}
             >
-              What Clients{' '}
-              <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Say</span>
+              What {' '}
+              <span style={{ color: '#7c3aed', fontStyle: 'italic' }}>Clients</span> Say
             </h2>
 
             <p

@@ -1,4 +1,4 @@
-import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2, Phone, LucideSmartphone } from 'lucide-react';
+import { Users, Gamepad2, MessageCircleQuestion, Laptop, LucideLaptop2, Phone, LucideSmartphone, LucideGlobe } from 'lucide-react';
 
 const services = [
   {
@@ -10,20 +10,20 @@ const services = [
     features: ['Material Design', 'Database Integration', 'Premium Feel'],
   },
   {
-    icon: Gamepad2,
+    icon: LucideGlobe,
     label: '02',
-    title: 'Minecraft Plugins',
+    title: 'Web Development',
     description:
-      'Custom Spigot plugins that enhance server gameplay and management.',
-    features: ['Custom Commands', 'Gamemode Systems', 'Discord Bot Integration'],
+      'Polished websites made in various frameworks chosen to fulfil your needs and provide an unmatched experience.',
+    features: ['React', 'Frappe Framework', 'Full Backend'],
   },
   {
     icon: LucideLaptop2,
     label: '03',
     title: 'Desktop Development',
     description:
-      "Feature-rich desktop apps that are easy to use with various integrations. ",
-    features: ['.NET', 'Compose', 'Cross-platform'],
+      "Feature-rich desktop apps with intuitive interfaces, blazing performance and limitless integrations.",
+    features: ['.NET', 'Jetpack Compose', 'Cross-platform'],
   },
 ];
 
@@ -75,7 +75,7 @@ const Services = () => {
               className="max-w-sm text-sm sm:text-base leading-relaxed"
               style={{ fontFamily: "'DM Sans', sans-serif", color: '#4a4a4a' }}
             >
-              An online store? A whole gamemode? A simple utility app?
+              An online store? A landing page? A simple utility app?
               We're always up for a challenge.
             </p>
           </div>
